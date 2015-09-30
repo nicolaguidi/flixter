@@ -46,3 +46,9 @@ end
 
 # Use Twitter Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
+
+# Use devise
+gem 'devise'
+
+# Use Simple Form
+gem 'simple_form'

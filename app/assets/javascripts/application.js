@@ -15,3 +15,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// Makes flash notices disappear automatically
+$(function() {
+  setTimeout(function(){
+    $('.notice').fadeOut(10000);
+  }, 1000);
+});
