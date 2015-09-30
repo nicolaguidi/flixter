@@ -7,10 +7,14 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+.clear {
+  clear:both;
+}
+
 // Hides Devise required asterisks
-// abbr[title="required"] {
-//   display: none;
-// }
+abbr[title="required"] {
+  display: none;
+}
 
 #emoji {
   font-size: 20px;
