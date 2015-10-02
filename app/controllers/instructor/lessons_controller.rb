@@ -18,7 +18,7 @@ class Instructor::LessonsController < ApplicationController
       return render :text => 'Unauthorized', :status => :unauthorized
     end
   end
-  
+
   # In order to be able to call a function like this inside our views.
   helper_method :current_section
   def current_section
@@ -26,6 +26,6 @@ class Instructor::LessonsController < ApplicationController
   end
 
   def lesson_params
-    params.require(:lesson).permit(:title, :subtitle)
+    params.require(:lesson).permit(:title, :subtitle, :video)
   end
 end
