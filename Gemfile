@@ -53,10 +53,11 @@ gem 'devise'
 # Use Simple Form
 gem 'simple_form'
 
-# Use CarrierWave, Fog and MiniMagick for images upload and manipulation
+# Use CarrierWave, carrierwave-aws and MiniMagick for images upload and manipulation
 gem 'carrierwave'
-gem 'fog'
+# gem 'fog'
 gem 'mini_magick'
+gem 'carrierwave-aws'
 
 # Use Figaro
 gem 'figaro'
