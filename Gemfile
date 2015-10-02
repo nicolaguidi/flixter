@@ -52,3 +52,10 @@ gem 'devise'
 
 # Use Simple Form
 gem 'simple_form'
+
+# Use CarrierWave & Fog
+gem 'carrierwave'
+gem 'fog'
+
+# Use Figaro
+gem 'figaro'
