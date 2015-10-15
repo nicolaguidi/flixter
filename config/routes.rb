@@ -7,9 +7,13 @@ Flixter::Application.routes.draw do
   # root 'welcome#index'
   root 'static_pages#index'
 
+  resources :courses, :only => [:index, :show] do
+    resources :enrollments, :only => :create
+  end
+
   resources :courses, :only => [:index, :show]
   resources :lessons, :only => [:show]
-  
+
   # Nested resources allow us to access other elements (ex. course_id)
   namespace :instructor do
     resources :sections, :only => [] do
