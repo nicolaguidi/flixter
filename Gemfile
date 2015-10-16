@@ -61,3 +61,6 @@ gem 'carrierwave-aws'
 
 # Use Figaro
 gem 'figaro'
+
+# Use Stripe for credit card transations
+gem 'stripe'
