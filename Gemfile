@@ -64,3 +64,6 @@ gem 'figaro'
 
 # Use Stripe for credit card transations
 gem 'stripe'
+
+# Use Ranked Model to reorder lessons
+gem 'ranked-model'
