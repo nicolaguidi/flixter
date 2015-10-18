@@ -15,6 +15,8 @@
 //= require jquery_ujs
 //= require_tree .
 
+//= require jquery-ui
+
 // Makes flash notices disappear automatically
 $(function() {
   setTimeout(function(){
